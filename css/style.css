@@ -120,7 +120,7 @@ footer {
     text-align: center
 }
 
-/* Forms */
+
 form {
     display: block;
     margin-top: 0.75rem
@@ -260,4 +260,21 @@ textarea:focus {
     .site-branding h1 {
         font-size: 1.25rem
     }
+}
+
+
+.img-zoomable{
+    display:block;
+    width:100%;
+    max-width:35em;
+    height:auto;
+    border-radius:8px;
+    transition:transform 260ms ease, box-shadow 200ms ease;
+    transform-origin:center center;
+    cursor:zoom-in;
+}
+.img-zoomable.enlarged{
+    transform:scale(1.14);
+    box-shadow:0 18px 40px rgba(15,23,42,0.18);
+    cursor:zoom-out;
 }
