@@ -245,17 +245,6 @@ a:hover {
 }
 
 
-@media (min-width:640px) {
-    .site-branding {
-        display: inline-block
-    }
-
-    nav {
-        display: inline-block;
-        float: right
-    }
-}
-
 @media (min-width:900px) {
     main {
         padding: 0
@@ -311,16 +300,6 @@ select:focus,
 textarea:focus {
     outline: 3px solid rgba(59, 130, 246, 0.18);
     border-color: var(--primary)
-}
-
-@media (max-width:480px) {
-    nav ul {
-        flex-direction: column
-    }
-
-    .site-branding h1 {
-        font-size: 1.25rem
-    }
 }
 
 
